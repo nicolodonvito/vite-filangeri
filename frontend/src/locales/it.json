@@ -1,0 +1,85 @@
+{
+	"header": {
+		"home": "Home",
+		"about": "Chi siamo",
+		"contacts": "Contatti",
+		"pages": "Pagine",
+		"language": "Lingua"
+	},
+	"home": {
+		"hero": {
+			"title": "Scopri la bellezza che ti distingue",
+			"subtitle": "Fragranze uniche, cosmetici di qualità e pelletteria di classe per ogni stile e occasione.",
+			"cta1": "Sfoglia i brand",
+			"cta2": "Scopri di più",
+			"imageAlt": "Profumo Filangeri"
+		},
+		"about": {
+			"title": "Chi siamo",
+			"paragraphs": {
+				"1": "Fondata nel 2005 da Roberto Filangeri, la Profumeria Filangeri eredita l'esperienza di famiglia nella pelletteria. La passione per la qualità si riflette nella selezione di accessori Made in Italy d'eccellenza, pensati per una clientela attenta alla raffinatezza e alla durata nel tempo.",
+				"2": "Nel corso degli anni, la Profumeria Filangeri ha ampliato la propria offerta includendo una vasta gamma di fragranze esclusive e personalizzate create per soddisfare ogni gusto, garantendo essenze che riflettono eleganza e unicità.",
+				"3": "Abbiamo inserito una selezione di make up di alta gamma. Il nostro team è a disposizione per consulenze professionale e personalizzate per ogni pelle e occasione.",
+				"4": "Sempre attenti all'innovazione, selezioniamo marchi cosmetici ad alte prestazioni adatte anche ad un'audience maschile, con risultati garantiti.",
+				"5": "Per completare la nostra offerta, troverete anche borse e accessori dei migliori brand italiani, tra cui Valentino, e Aeronautica Militare, permettendo a ciascun cliente di esprimere il proprio stile con eleganza e autenticità."
+			}
+		},
+		"where": {
+			"title": "Dove trovarci",
+			"paragraphs": {
+				"1": "Il nostro punto vendita si trova in via Santa Rita da Cascia, 36, a Milano, in una strada ampia con ampio parcheggio gratuito.",
+				"2": "Inoltre siamo situati di fronte alla fermata della linea 95, che collega il nostro negozio con la fermata Famagosta M2 della metropolitana di Milano. Puoi facilmente raggiungerci con i mezzi pubblici."
+			}
+		},
+		"cards": {
+			"title": "Perché sceglierci",
+			"1": {
+				"title": "Consulenza su misura",
+				"description": "Ti accompagneremo nella scelta del prodotto perfetto per te."
+			},
+			"2": {
+				"title": "Make up Professionale",
+				"description": "Il nostro staff è pronto a creare il look adatto per ogni occasione."
+			},
+			"3": {
+				"title": "Cosmetica di Altissima Qualità",
+				"description": "Selezioniamo prodotti esclusivi per la cura del viso e del corpo."
+			},
+			"4": {
+				"title": "Spedizioni in tutta Italia",
+				"description": "Ricevi i tuoi acquisti comodamente a casa, ovunque tu sia."
+			}
+		},
+		"brands": {
+			"title": "I nostri brand",
+			"buttons": {
+				"perfumes": "Profumi",
+				"makeup": "Make up",
+				"skincare": "Cosmetica",
+				"leathers": "Pellame"
+			}
+		},
+		"contacts": {
+			"title": "Contattaci",
+			"paragraphs": {
+				"1": "Se desideri maggiori informazioni, non esitare a contattarci.",
+				"2": "Siamo aperti dal Lunedì al Sabato, ore 9:00 - 13:00 e 15:30 - 19.30."
+			},
+			"cards": {
+				"1": {
+					"title": "Contatto diretto"
+				},
+				"phone": "Telefono",
+				"landline": "Fisso: ",
+				"whatsapp": "Whatsapp: ",
+				"email": "Email",
+				"social": "Social",
+				"instagram": "Instagram: "
+			}
+		}
+	},
+	"footer": {
+		"vat": "P.IVA",
+		"copy": "Tutti i diritti riservati."
+	}
+}

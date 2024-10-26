@@ -1,0 +1,58 @@
+.text-image-mosaic {
+	display: flex;
+	align-items: flex-start;
+	gap: 40px;
+	width: 100%;
+}
+
+.tim-text-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* Keep the mosaic grid square by making the width and height proportional */
+.tim-image-wrapper {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(3, clamp(100px, 29vw, 100px));
+	/* 3 equal-width columns with responsive scaling */
+	grid-template-rows: repeat(3, clamp(100px, 29vw, 100px));
+	/* 3 equal-height rows with responsive scaling */
+	grid-gap: 5px;
+	justify-content: center;
+	align-content: center;
+}
+
+.tim-image-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tim-image-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* Ensures the image covers the entire grid area without distortion */
+}
+
+.tim-logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: clamp(190px, 20vw, 200px);
+	height: clamp(190px, 20vw, 200px);
+	object-fit: contain;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid var(--border-1);
+	/* Ensures the image covers the entire grid area without distortion */
+}
+
+@media (max-width: 768px) {
+	.text-image-mosaic {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+}

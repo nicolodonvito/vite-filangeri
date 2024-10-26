@@ -1,0 +1,116 @@
+.brands-collection {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.brands-collection .categories {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px;
+	margin: 10px 0;
+}
+
+.brands-collection .categories button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+	padding: 10px 50px;
+	gap: 5px;
+	border: 1px solid var(--border-1);
+	transition: 0.2s ease;
+}
+
+.brands-collection .categories .active {
+	background-color: var(--bg-3);
+	color: var(--text-2);
+}
+
+.brands-collection .categories button:hover {
+	background-color: var(--bg-3light);
+	color: var(--text-2);
+}
+
+.brands-collection .categories svg {
+	width: 30px;
+	height: 30px;
+	stroke-width: 1.2px;
+}
+
+.brands-collection .brands {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	/* Ensures consistent row height */
+	grid-gap: 10px;
+	width: 100%;
+}
+
+.brands-collection .brand {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+	background-color: var(--bg-2dark);
+	padding: 10px;
+	transition: all 0.2s ease;
+	animation: pop-in 0.3s ease;
+}
+
+.brands-collection .brand:hover {
+	background-color: var(--bg-1);
+}
+
+.brands-collection .brand .brand-info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	gap: 10px;
+	opacity: 0;
+	background-color: var(--bg-1o);
+	backdrop-filter: blur(4px);
+	transition: all 0.3s ease;
+}
+
+.brands-collection .brand:hover .brand-info {
+	opacity: 1;
+}
+
+.brands-collection .brand img {
+	max-width: 100%;
+	max-height: 100%;
+	/* object-fit: cover; */
+}
+
+.brands-collection .brand .brand-info h3 {
+	font-weight: 600;
+}
+
+@keyframes pop-in {
+	from {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@media (max-width: 768px) {
+	.brands-collection .categories button {
+		width: 100%;
+	}
+
+	.brands-collection .brand {
+		width: 100%;
+	}
+}

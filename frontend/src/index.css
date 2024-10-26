@@ -1,0 +1,145 @@
+:root {
+  --text-1: #1b1b1b;
+  --text-1light: #202020;
+  --text-2: #ececec;
+  --text-2dark: #bdbdbd;
+
+  --accent-1: #D20132;
+  --accent-1light: #D20132BB;
+
+  --bg-1: #c0c0c0;
+  --bg-1o: #c0c0c088;
+  --bg-1dark: #979797;
+  --bg-2: #F1F1F1;
+  --bg-2dark: #e2e2e2;
+  --bg-3: #202020;
+  --bg-3light: #414141;
+  --bg-4: #413F3D;
+
+  --border-1: #1b1b1b;
+  --shadow: #BFBFBF;
+  --shadow-1: #1b1b1b;
+  --shadow-1o: #1b1b1bcc;
+
+  --font-h1: clamp(1.5rem, 3vw, 36px);
+  --font-h2: clamp(1.25rem, 2.5vw, 32px);
+  --font-h3: clamp(1.15rem, 2vw, 24px);
+  --font-h4: clamp(1.125rem, 1.5vw, 20px);
+  --font-h5: clamp(1rem, 1.25vw, 18px);
+  --font-h6: clamp(1rem, 1vw, 16px);
+  --font-p: clamp(1rem, 1vw, 16px);
+  --font-button: clamp(1rem, 1.5vw, 20px);
+
+  --weight-h1: 600;
+  --weight-h2: 400;
+  --weight-h3: 300;
+}
+
+* {
+  font-family: "URW DIN Arabic", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxed {
+  width: clamp(300px, 90vw, 1200px);
+  margin: 0 auto;
+}
+
+.wide {
+  width: clamp(200px, 95vw, 1400px);
+  margin: 0 auto;
+}
+
+.ultrawide {
+  width: clamp(100px, 99vw, 1600px);
+  margin: 0 auto;
+}
+
+.spacer-10 {
+  height: 10px;
+  /* height: clamp(1px, 1vw, 10px); */
+}
+
+.spacer-20 {
+  height: 20px;
+  /* height: clamp(2px, 1vw, 20px); */
+}
+
+.spacer-40 {
+  height: 40px;
+  /* height: clamp(4px, 1vw, 40px); */
+}
+
+.spacer-60 {
+  height: 60px;
+  /* height: clamp(6px, 1vw, 60px); */
+}
+
+.spacer-80 {
+  height: 80px;
+  /* height: clamp(70px, 1vw, 80px); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: var(--text-1);
+}
+
+h1 {
+  font-size: var(--font-h1);
+  font-weight: var(--weight-h1);
+  letter-spacing: 0.2px;
+}
+
+h2 {
+  font-size: var(--font-h2);
+  font-weight: var(--weight-h2);
+}
+
+h3 {
+  font-size: var(--font-h3);
+  font-weight: var(--weight-h3);
+}
+
+h4 {
+  font-size: var(--font-h4);
+  font-weight: var(--weight-h4);
+}
+
+h5 {
+  font-size: var(--font-h5);
+  font-weight: var(--weight-h5);
+}
+
+h6 {
+  font-size: var(--font-h6);
+  font-weight: var(--weight-h6);
+}
+
+p {
+  font-size: var(--font-p);
+  font-weight: var(--weight-p);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: var(--font-button);
+}
+
+section+section {
+  margin: 80px auto !important;
+}

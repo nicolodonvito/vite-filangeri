@@ -1,0 +1,43 @@
+.red-left-card {
+	display: flex;
+	background-color: var(--bg-2dark);
+	border-left: 4px solid var(--accent-1);
+	padding: 10px;
+}
+
+.rlc-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 5px;
+	overflow: hidden;
+	width: 300px;
+}
+
+.rlc-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-transform: uppercase;
+}
+
+
+/* .rlc-header svg {
+	width: 21px;
+	height: 21px;
+} */
+
+.rlc-description {
+	display: flex;
+}
+
+
+@media (max-width: 768px) {
+	.red-left-card {
+		width: 100%;
+	}
+
+	.rlc-content {
+		width: 100%;
+	}
+}

@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/URWDINArabic-Thin.woff2') format('woff2'),
+		url('fonts/URWDINArabic-Thin.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/URWDINArabic-XLight.woff2') format('woff2'),
+		url('fonts/URWDINArabic-XLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/URWDINArabic-Light.woff2') format('woff2'),
+		url('fonts/URWDINArabic-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/URWDINArabic-Regular.woff2') format('woff2'),
+		url('fonts/URWDINArabic-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/URWDINArabic-Medium.woff2') format('woff2'),
+		url('fonts/URWDINArabic-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/URWDINArabic-Demi.woff2') format('woff2'),
+		url('fonts/URWDINArabic-Demi.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/URWDINArabic-Bold.woff2') format('woff2'),
+		url('fonts/URWDINArabic-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'URW DIN Arabic';
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/URWDINArabic-Black.woff2') format('woff2'),
+		url('fonts/URWDINArabic-Black.woff') format('woff');
+}
