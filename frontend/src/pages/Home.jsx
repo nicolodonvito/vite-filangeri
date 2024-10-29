@@ -2,7 +2,7 @@ import AutoSwipe from "../components/AutoSwipe/AutoSwipe";
 import TextImageMosaic from "../components/BlockTextImageMosaic/TextImageMosaic";
 import TextMap from "../components/BlockTextMap/TextMap";
 import BrandsCollection from "../components/BrandsCollection/BrandsCollection";
-import Hero from "../components/Hero/Hero";
+import Heroalt from "../components/Hero/Heroalt";
 import Section from "../components/Section/Section";
 
 import { TbPerfume } from "react-icons/tb";
@@ -19,6 +19,7 @@ const heroTexts = {
 	cta1: "home.hero.cta1",
 	cta2: "home.hero.cta2",
 	imageAlt: "home.hero.imageAlt",
+	heroImage: "Hero-upscale.png"
 }
 
 const aboutTexts = {
@@ -123,10 +124,6 @@ const contactTexts = {
 			icon: <BsPhone size={20} />,
 			descriptions: [
 				{
-					text: "home.contacts.cards.landline",
-					detail: "(+39) 02 39620385"
-				},
-				{
 					text: "home.contacts.cards.whatsapp",
 					detail: "(+39) 3470784741"
 				}
@@ -137,7 +134,7 @@ const contactTexts = {
 			icon: <CiMail size={25} />,
 			descriptions: [
 				{
-					detail: "info@filangeri.it"
+					detail: "info@filangeri.com"
 				}
 			],
 		},
@@ -157,9 +154,9 @@ const contactTexts = {
 
 export default function Home() {
 	return (
-		<div className="home">
+		<section className="home">
 			{/* Hero */}
-			<Hero
+			<Heroalt
 				heroTexts={heroTexts}
 			/>
 
@@ -214,6 +211,6 @@ export default function Home() {
 					/>
 				}
 			/>
-		</div>
+		</section>
 	)
 }
