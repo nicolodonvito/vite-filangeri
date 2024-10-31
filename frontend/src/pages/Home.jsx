@@ -17,7 +17,9 @@ const heroTexts = {
 	title: "home.hero.title",
 	subtitle: "home.hero.subtitle",
 	cta1: "home.hero.cta1",
+	linkcta1: "#brands",
 	cta2: "home.hero.cta2",
+	linkcta2: "#about",
 	imageAlt: "home.hero.imageAlt",
 	heroImage: "Hero-upscale.png"
 }
@@ -204,6 +206,7 @@ export default function Home() {
 
 			{/* Our brands */}
 			<Section
+				sectionId="brands"
 				title="home.brands.title"
 				component={
 					<BrandsCollection

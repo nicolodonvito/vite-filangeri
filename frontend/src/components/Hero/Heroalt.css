@@ -55,7 +55,10 @@
 	gap: 10px;
 }
 
-.hero-cta button {
+.hero-cta a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	transition: all 0.2s ease;
 	cursor: pointer;
 }
