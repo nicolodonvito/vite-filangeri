@@ -1,9 +1,86 @@
 {
 	"header": {
 		"home": "Home",
-		"about": "About",
+		"about": "About Us",
 		"contacts": "Contacts",
 		"pages": "Pages",
 		"language": "Language"
+	},
+	"home": {
+		"hero": {
+			"title": "Discover the beauty that sets you apart",
+			"subtitle": "Unique fragrances, quality cosmetics, and classy leather goods for every style and occasion.",
+			"cta1": "Browse the brands",
+			"cta2": "Learn more",
+			"imageAlt": "Filangeri Perfume"
+		},
+		"about": {
+			"title": "About Us",
+			"paragraphs": {
+				"1": "Founded in 2005 by Roberto Filangeri, Filangeri Perfume inherits the family expertise in leather goods. The passion for quality is reflected in the selection of top-notch Made in Italy accessories, designed for clients who appreciate sophistication and long-lasting value.",
+				"2": "Over the years, Filangeri Perfume has expanded its offerings to include a wide range of exclusive and personalized fragrances created to suit every taste, ensuring scents that reflect elegance and uniqueness.",
+				"3": "We have introduced a selection of high-end makeup. Our team is available for professional and personalized consultations for every skin type and occasion.",
+				"4": "Always attentive to innovation, we select high-performance cosmetic brands suitable for a male audience as well, with guaranteed results.",
+				"5": "To complete our offerings, you will also find bags and accessories from the best Italian brands, including Valentino and Aeronautica Militare, allowing each client to express their style with elegance and authenticity."
+			}
+		},
+		"where": {
+			"title": "Where to Find Us",
+			"paragraphs": {
+				"1": "Our store is located at 36 Santa Rita da Cascia Street, in Milan, on a wide street with ample free parking.",
+				"2": "Additionally, we are located across from the line 95 bus stop, which connects our store with the Famagosta M2 metro station in Milan. You can easily reach us by public transport."
+			}
+		},
+		"cards": {
+			"title": "Why Choose Us",
+			"1": {
+				"title": "Tailored Consultation",
+				"description": "We will guide you in choosing the perfect product for you."
+			},
+			"2": {
+				"title": "Professional Makeup",
+				"description": "Our staff is ready to create the right look for any occasion."
+			},
+			"3": {
+				"title": "High-Quality Cosmetics",
+				"description": "We select exclusive products for face and body care."
+			},
+			"4": {
+				"title": "Shipping Across Europe",
+				"description": "Receive your purchases conveniently at home, wherever you are."
+			}
+		},
+		"brands": {
+			"title": "Our Brands",
+			"buttons": {
+				"perfumes": "Perfumes",
+				"makeup": "Makeup",
+				"skincare": "Skincare",
+				"leathers": "Leather Goods"
+			}
+		},
+		"contacts": {
+			"title": "Contact Us",
+			"paragraphs": {
+				"1": "If you would like more information, do not hesitate to contact us.",
+				"2": "We are open from Monday to Saturday, from 9:30 AM to 12:45 PM and 3:30 PM to 7:30 PM.",
+				"3": "We are closed on Monday afternoons and Sundays."
+			},
+			"cards": {
+				"1": {
+					"title": "Direct Contact"
+				},
+				"phone": "Phone",
+				"landline": "Landline: ",
+				"whatsapp": "Whatsapp: ",
+				"email": "Email",
+				"social": "Social",
+				"instagram": "Instagram: "
+			}
+		}
+	},
+	"footer": {
+		"vat": "VAT",
+		"copy": "All rights reserved."
 	}
 }

@@ -1,6 +1,6 @@
 .hero {
 	width: 100%;
-	box-shadow: 0 0 10px var(--shadow-1);
+	box-shadow: 0 0 20px 2px var(--shadow-1);
 }
 
 .hero-content {
@@ -25,7 +25,7 @@
 	object-fit: cover;
 }
 
-.hero-description-container {
+/* .hero-description-container {
 	left: 20px;
 	bottom: 50%;
 	width: 600px;
@@ -34,12 +34,25 @@
 	z-index: 1;
 	background-color: var(--bg-1o);
 	border: 2px solid var(--border-1);
+} */
+
+.hero-description-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 33%;
+	left: 0px;
+	top: 0;
+	padding: 20px;
+	background-color: var(--bg-2o);
+	backdrop-filter: blur(4px);
 }
 
 .hero-cta {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 5px clamp(10px, 5vw, 40px);
+	gap: 10px;
 }
 
 .hero-cta button {
@@ -59,10 +72,10 @@
 
 .primary-cta {
 	background-color: var(--bg-3);
-	flex-grow: 2;
+	flex-grow: 4;
 	color: var(--text-2);
 	border: none;
-	padding: 12px 20px;
+	padding: 12px 22px;
 }
 
 .primary-cta:hover {

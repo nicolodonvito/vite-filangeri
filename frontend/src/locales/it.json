@@ -63,7 +63,8 @@
 			"title": "Contattaci",
 			"paragraphs": {
 				"1": "Se desideri maggiori informazioni, non esitare a contattarci.",
-				"2": "Siamo aperti dal Lunedì al Sabato, ore 9:00 - 13:00 e 15:30 - 19.30."
+				"2": "Siamo aperti dal Lunedì al Sabato, ore 9:30 - 12:45 e 15:30 - 19.30.",
+				"3": "Siamo chiusi il Lunedì pomeriggio e la Domenica." 
 			},
 			"cards": {
 				"1": {

@@ -11,6 +11,7 @@
   --bg-1o: #c0c0c0CC;
   --bg-1dark: #979797;
   --bg-2: #F1F1F1;
+  --bg-2o: #F1F1F1CC;
   --bg-2dark: #e2e2e2;
   --bg-3: #202020;
   --bg-3light: #414141;
@@ -43,12 +44,12 @@
 }
 
 .boxed {
-  width: clamp(300px, 90vw, 1200px);
+  width: clamp(100px, 90vw, 1200px);
   margin: 0 auto;
 }
 
 .wide {
-  width: clamp(200px, 95vw, 1400px);
+  width: clamp(100px, 95vw, 1400px);
   margin: 0 auto;
 }
 

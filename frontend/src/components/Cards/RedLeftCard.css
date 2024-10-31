@@ -5,6 +5,13 @@
 	padding: 10px;
 }
 
+/* .red-left-card {
+	display: flex;
+	background-color: var(--bg-2dark);
+	border-left: 4px solid var(--accent-1);
+	padding: 10px;
+} */
+
 .rlc-content {
 	display: flex;
 	flex-direction: column;
@@ -29,6 +36,7 @@
 
 .rlc-description {
 	display: flex;
+
 }
 
 

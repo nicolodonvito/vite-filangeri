@@ -43,7 +43,7 @@ export default withTranslation()(function App({ i18n }) {
 				</Routes>
 				<Footer
 					vatType={t("footer.vat")}
-					vat={"123"}
+					vat={"04837550963"}
 					copy={"footer.copy"}
 				/>
 			</Router>

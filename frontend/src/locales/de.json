@@ -1,9 +1,86 @@
 {
 	"header": {
-		"home": "Home",
-		"about": "Ueber uns",
+		"home": "Startseite",
+		"about": "Über uns",
 		"contacts": "Kontakt",
 		"pages": "Seiten",
 		"language": "Sprache"
+	},
+	"home": {
+		"hero": {
+			"title": "Entdecken Sie die Schönheit, die Sie auszeichnet",
+			"subtitle": "Einzigartige Düfte, hochwertige Kosmetik und edle Lederwaren für jeden Stil und Anlass.",
+			"cta1": "Marken durchsuchen",
+			"cta2": "Mehr erfahren",
+			"imageAlt": "Filangeri Parfum"
+		},
+		"about": {
+			"title": "Über uns",
+			"paragraphs": {
+				"1": "Gegründet im Jahr 2005 von Roberto Filangeri, übernimmt Filangeri Parfum das familiäre Know-how in der Lederwarenbranche. Die Leidenschaft für Qualität spiegelt sich in der Auswahl hochwertiger Accessoires „Made in Italy“ wider, die für Kunden gedacht sind, die Raffinesse und Langlebigkeit schätzen.",
+				"2": "Im Laufe der Jahre hat Filangeri Parfum sein Angebot erweitert, um eine Vielzahl exklusiver und personalisierter Düfte anzubieten, die jeden Geschmack erfüllen und für Eleganz und Einzigartigkeit stehen.",
+				"3": "Wir haben eine Auswahl an hochwertigem Make-up eingeführt. Unser Team steht für professionelle und personalisierte Beratung für jeden Hauttyp und Anlass zur Verfügung.",
+				"4": "Immer auf Innovation bedacht, wählen wir leistungsstarke Kosmetikmarken, die auch für eine männliche Zielgruppe geeignet sind und garantierte Ergebnisse bieten.",
+				"5": "Um unser Angebot abzurunden, finden Sie auch Taschen und Accessoires der besten italienischen Marken, darunter Valentino und Aeronautica Militare, sodass jeder Kunde seinen Stil mit Eleganz und Authentizität ausdrücken kann."
+			}
+		},
+		"where": {
+			"title": "Wo Sie uns finden",
+			"paragraphs": {
+				"1": "Unser Geschäft befindet sich in der Santa Rita da Cascia Straße 36 in Mailand, in einer breiten Straße mit viel kostenlosem Parkraum.",
+				"2": "Außerdem befinden wir uns gegenüber der Haltestelle der Buslinie 95, die unser Geschäft mit der U-Bahn-Station Famagosta M2 in Mailand verbindet. Sie können uns bequem mit öffentlichen Verkehrsmitteln erreichen."
+			}
+		},
+		"cards": {
+			"title": "Warum uns wählen",
+			"1": {
+				"title": "Individuelle Beratung",
+				"description": "Wir begleiten Sie bei der Auswahl des perfekten Produkts für Sie."
+			},
+			"2": {
+				"title": "Professionelles Make-up",
+				"description": "Unser Team ist bereit, den passenden Look für jeden Anlass zu kreieren."
+			},
+			"3": {
+				"title": "Hochwertige Kosmetik",
+				"description": "Wir wählen exklusive Produkte für die Gesichts- und Körperpflege aus."
+			},
+			"4": {
+				"title": "Versand in ganz Europa",
+				"description": "Erhalten Sie Ihre Einkäufe bequem zu Hause, wo immer Sie sind."
+			}
+		},
+		"brands": {
+			"title": "Unsere Marken",
+			"buttons": {
+				"perfumes": "Düfte",
+				"makeup": "Make-up",
+				"skincare": "Hautpflege",
+				"leathers": "Lederwaren"
+			}
+		},
+		"contacts": {
+			"title": "Kontaktieren Sie uns",
+			"paragraphs": {
+				"1": "Wenn Sie weitere Informationen wünschen, zögern Sie nicht, uns zu kontaktieren.",
+				"2": "Wir sind von Montag bis Samstag geöffnet, von 9:30 bis 12:45 Uhr und 15:30 bis 19:30 Uhr.",
+				"3": "Montagnachmittag und sonntags sind wir geschlossen."
+			},
+			"cards": {
+				"1": {
+					"title": "Direkter Kontakt"
+				},
+				"phone": "Telefon",
+				"landline": "Festnetz: ",
+				"whatsapp": "Whatsapp: ",
+				"email": "E-Mail",
+				"social": "Sozial",
+				"instagram": "Instagram: "
+			}
+		}
+	},
+	"footer": {
+		"vat": "USt-IdNr.",
+		"copy": "Alle Rechte vorbehalten."
 	}
 }

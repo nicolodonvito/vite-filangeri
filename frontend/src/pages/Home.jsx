@@ -117,6 +117,7 @@ const contactTexts = {
 	textParagraph: [
 		"home.contacts.paragraphs.1",
 		"home.contacts.paragraphs.2",
+		"home.contacts.paragraphs.3",
 	],
 	cardContent: [
 		{
